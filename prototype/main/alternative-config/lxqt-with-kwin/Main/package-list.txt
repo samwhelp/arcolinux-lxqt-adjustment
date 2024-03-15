@@ -27,19 +27,15 @@ lxqt
 
 
 ##
-## ## Package / Window Manager / openbox
+## ## Package / Window Manager / kwin
 ##
 
-openbox
-obconf-qt
+kwin
 
+#kglobalaccel
+kglobalacceld
 
-feh
-rofi
-picom
-
-#alsa-utils
-#brightnessctl
+kdeplasma-addons
 
 
 

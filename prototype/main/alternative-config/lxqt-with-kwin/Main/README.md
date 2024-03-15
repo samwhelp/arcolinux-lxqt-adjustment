@@ -16,11 +16,23 @@
 | [~/.config/lxqt/session.conf](./asset/overlay/etc/skel/.config/lxqt/session.conf) |
 
 
-### openbox
+### kwin
 
 | Config File Path |
 | --- |
-| [~/.config/openbox/rc.xml](./asset/overlay/etc/skel/.config/openbox/rc.xml) |
+| [~/.config/kglobalshortcutsrc](./asset/overlay/etc/skel/.config/kglobalshortcutsrc) |
+| [~/.config/kactivitymanagerdrc](./asset/overlay/etc/skel/.config/kactivitymanagerdrc) |
+| [~/.config/kwinrc](./asset/overlay/etc/skel/.config/kwinrc) |
+
+
+| Config File Path |
+| --- |
+| [~/.config/kdeglobals](./asset/overlay/etc/skel/.config/kdeglobals) |
+| [~/.config/plasmarc](./asset/overlay/etc/skel/.config/plasmarc) |
+| [~/.config/kcminputrc](./asset/overlay/etc/skel/.config/kcminputrc) |
+| [~/.config/kaccessrc](./asset/overlay/etc/skel/.config/kaccessrc) |
+| [~/.config/krunnerrc](./asset/overlay/etc/skel/.config/krunnerrc) |
+| [~/.config/ktimezonedrc](./asset/overlay/etc/skel/.config/ktimezonedrc) |
 
 
 ### pcmanfm-qt
@@ -74,6 +86,14 @@
 | Arch Package |
 | --- |
 | [lxqt](https://archlinux.org/groups/x86_64/lxqt/) |
+
+
+| Arch Package |
+| --- |
+| [kwin](https://archlinux.org/packages/extra/x86_64/kwin/) |
+| [kglobalaccel](https://archlinux.org/packages/extra/x86_64/kglobalaccel/) |
+| [kglobalacceld](https://archlinux.org/packages/extra/x86_64/kglobalacceld/) |
+| [kdeplasma-addons](https://archlinux.org/packages/extra/x86_64/kdeplasma-addons/) |
 
 
 
