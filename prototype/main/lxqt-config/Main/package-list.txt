@@ -10,9 +10,8 @@
 ##
 ## ## Link
 ##
-## * https://wiki.archlinux.org/title/xfce
-## * https://archlinux.org/groups/x86_64/xfce4/
-## * https://archlinux.org/groups/x86_64/xfce4-goodies/
+## * https://wiki.archlinux.org/title/LXQt
+## * https://archlinux.org/groups/x86_64/lxqt/
 ##
 
 

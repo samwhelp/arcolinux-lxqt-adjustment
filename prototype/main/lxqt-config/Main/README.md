@@ -69,11 +69,11 @@
 
 
 
-## Ubuntu Package
+## Arch Package
 
-| Ubuntu Package |
+| Arch Package |
 | --- |
-| [lxqt](https://packages.ubuntu.com/noble/lxqt) |
+| [lxqt](https://archlinux.org/groups/x86_64/lxqt/) |
 
 
 
