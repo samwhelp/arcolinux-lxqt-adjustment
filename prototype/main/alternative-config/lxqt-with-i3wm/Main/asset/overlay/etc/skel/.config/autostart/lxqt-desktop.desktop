@@ -4,7 +4,7 @@ Exec=pcmanfm-qt --desktop --profile=lxqt
 TryExec=pcmanfm-qt
 OnlyShowIn=LXQt;
 X-LXQt-Module=true
-Hidden=false
+Hidden=true
 
 Name=Desktop
 Name[ar]=سطح المكتب
