@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=Utility;
+Comment=Feh Desktop (Only Wallpaper)
+Exec=feh --bg-fill --randomize /usr/share/lxqt/wallpapers/
+#Exec=feh -bg-fill /usr/share/lxqt/wallpapers/Butterfly-Kenneth-Wimer.jpg
+GenericName=Feh Desktop
+Hidden=false
+Icon=picom
+Keywords=compositor;composite manager;window effects;transparency;opacity;
+Name=Feh-Desktop
+NoDisplay=false
+StartupNotify=false
+Terminal=false
+TryExec=feh
+Type=Application
+Version=1.0
