@@ -16,11 +16,12 @@
 | [~/.config/lxqt/session.conf](./asset/overlay/etc/skel/.config/lxqt/session.conf) |
 
 
-### openbox
+### xfwm4
 
 | Config File Path |
 | --- |
-| [~/.config/openbox/rc.xml](./asset/overlay/etc/skel/.config/openbox/rc.xml) |
+| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml) |
+| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml) |
 
 
 ### pcmanfm-qt
