@@ -1,8 +1,30 @@
 
-# Lxqt
+
+# Lxqt Config
+
+* [Config File Path](#config-file-path)
+* [Arch Group Package](#fedora-group-package)
+* [Usage](#usage)
+
+
 
 
 ## Config File Path
+
+* [lxqt](#lxqt)
+* [openbox](#openbox)
+* [picom](#picom)
+* [default-cursor-theme](#default-cursor-theme)
+* [gtk2](#gtk2)
+* [gtk3](#gtk3)
+* [Trolltech.conf](#trolltechconf)
+* [kvantum](#kvantum)
+* [mimeapps.list](#mimeappslist)
+* [thunar](#thunar)
+* [xfce4-terminal](#xfce4-terminal)
+* [pcmanfm-qt](#pcmanfm-qt)
+* [qterminal](#qterminal)
+* [sakura](#sakura)
 
 
 ### lxqt
@@ -16,37 +38,25 @@
 | [~/.config/lxqt/session.conf](./asset/overlay/etc/skel/.config/lxqt/session.conf) |
 
 
-### kwin
+### openbox
 
 | Config File Path |
 | --- |
-| [~/.config/kglobalshortcutsrc](./asset/overlay/etc/skel/.config/kglobalshortcutsrc) |
-| [~/.config/kactivitymanagerdrc](./asset/overlay/etc/skel/.config/kactivitymanagerdrc) |
-| [~/.config/kwinrc](./asset/overlay/etc/skel/.config/kwinrc) |
+| [~/.config/openbox/rc.xml](./asset/overlay/etc/skel/.config/openbox/rc.xml) |
 
 
-| Config File Path |
-| --- |
-| [~/.config/kdeglobals](./asset/overlay/etc/skel/.config/kdeglobals) |
-| [~/.config/plasmarc](./asset/overlay/etc/skel/.config/plasmarc) |
-| [~/.config/kcminputrc](./asset/overlay/etc/skel/.config/kcminputrc) |
-| [~/.config/kaccessrc](./asset/overlay/etc/skel/.config/kaccessrc) |
-| [~/.config/krunnerrc](./asset/overlay/etc/skel/.config/krunnerrc) |
-| [~/.config/ktimezonedrc](./asset/overlay/etc/skel/.config/ktimezonedrc) |
-
-
-### pcmanfm-qt
+### picom
 
 | Config File Path |
 | --- |
-| [~/.config/pcmanfm-qt/lxqt/settings.conf](./asset/overlay/etc/skel/.config/pcmanfm-qt/lxqt/settings.conf) |
+| [~/.config/picom.conf](./asset/overlay/etc/skel/.config/picom.conf) |
 
 
-### qterminal
+### default-cursor-theme
 
 | Config File Path |
 | --- |
-| [~/.config/qterminal.org/qterminal.ini](./asset/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
+| [~/.icons/default/index.theme](./asset/overlay/etc/skel/.icons/default/index.theme) |
 
 
 ### gtk2
@@ -65,11 +75,18 @@
 | [~/.config/gtk-3.0/vte-terminal.css](./asset/overlay/etc/skel/.config/gtk-3.0/vte-terminal.css) |
 
 
-### picom
+### Trolltech.conf
 
 | Config File Path |
 | --- |
-| [~/.config/picom.conf](./asset/overlay/etc/skel/.config/picom.conf) |
+| [~/.config/Trolltech.conf](./asset/overlay/etc/skel/.config/Trolltech.conf) |
+
+
+### kvantum
+
+| Config File Path |
+| --- |
+| [~/.config/Kvantum/kvantum.kvconfig](./asset/overlay/etc/skel/.config/Kvantum/kvantum.kvconfig) |
 
 
 ### mimeapps.list
@@ -79,21 +96,51 @@
 | [~/.config/mimeapps.list](./asset/overlay/etc/skel/.config/mimeapps.list) |
 
 
+### thunar
+
+| Config File Path |
+| --- |
+| [~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml) |
+| [~/.config/Thunar/uca.xml](./asset/overlay/etc/skel/.config/Thunar/uca.xml) |
+| [~/.config/Thunar/accels.scm](./asset/overlay/etc/skel/..config/Thunar/accels.scm) |
 
 
-## Arch Package
+### xfce4-terminal
 
-| Arch Package |
+| Config File Path |
+| --- |
+| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml](./asset/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml) |
+| [~/.config/xfce4/terminal/accels.scm](./asset/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
+
+
+### pcmanfm-qt
+
+| Config File Path |
+| --- |
+| [~/.config/pcmanfm-qt/default/settings.conf](./asset/overlay/etc/skel/.config/pcmanfm-qt/default/settings.conf) |
+
+
+### qterminal
+
+| Config File Path |
+| --- |
+| [~/.config/qterminal.org/qterminal.ini](./asset/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
+
+
+### sakura
+
+| Config File Path |
+| --- |
+| [~/.config/sakura/sakura.conf](./asset/overlay/etc/skel/.config/sakura/sakura.conf) |
+
+
+
+
+## Arch Group Package
+
+| Arch Group Package |
 | --- |
 | [lxqt](https://archlinux.org/groups/x86_64/lxqt/) |
-
-
-| Arch Package |
-| --- |
-| [kwin](https://archlinux.org/packages/extra/x86_64/kwin/) |
-| [kglobalaccel](https://archlinux.org/packages/extra/x86_64/kglobalaccel/) |
-| [kglobalacceld](https://archlinux.org/packages/extra/x86_64/kglobalacceld/) |
-| [kdeplasma-addons](https://archlinux.org/packages/extra/x86_64/kdeplasma-addons/) |
 
 
 
